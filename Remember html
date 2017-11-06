@@ -5,7 +5,7 @@
       <!-- Bootstrap -->
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 
-      <!-- Font Awesome -->
+      &lt;!-- Font Awesome --&gt;
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
       <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
       <link rel="stylesheet" href="styles.css" />
@@ -17,7 +17,8 @@
 
 
       <body class="container-fluid">
-      <div class="width-80">
+        <div class="width-80 div-center">
+      <div class="border-line">
       <header>
 
       <h1>Recordatorio Bootstrap en HTML</h1>
@@ -39,13 +40,14 @@
 
       </ul>
       </div>
+      </div
 
-      <!--
       ----------------------------------------------------
       ALGUNAS CLASES DE BOOTSTRAP
       PARA INSERTAR BOOTSTRAP EN NUESTRO HTML
+      <code>
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-
+</code>
 
       container-fluid
       Bootstrap descubrirá qué tan ancha es su pantalla y responderá cambiando el tamaño de sus elementos HTML
@@ -54,7 +56,7 @@
       Sería genial si esta imagen pudiera ser exactamente el ancho de la pantalla de nuestro teléfono
 
       text-center
-      Bootstrap, podemos centrar nuestro elemento de encabezado para que se vea mejor <h2 class="red-text text-center">your text</h2>
+      Bootstrap, podemos centrar nuestro elemento de encabezado para que se vea mejor &lt;h2 class="red-text text-center"&gt;your text&lt;/h2&gt;
 
       btn
       Bootstrap tiene sus propios estilos para los elementos button, que se ven mucho mejor que los simples HTML.
@@ -72,7 +74,7 @@
       Botones
 
       Crea diferentes tipos de botones con ayuda de cualquiera de las clases CSS definidas por Bootstrap 3. Ejemplo:
-      -->
+
       <!-- Botón normal -->
       <button type="button" class="btn btn-default">Normal</button>
 
@@ -95,7 +97,6 @@
       <!-- Resta importancia al botón haciéndolo parecer un simple enlace,
            aunque conserva tu comportamiento original de botón -->
       <button type="button" class="btn btn-link">Enlace</button>
-      <!--
       ----------------------------------------------------
 
 
@@ -202,6 +203,6 @@
 
 
 
-      -->
+
       </div>
       </body>
