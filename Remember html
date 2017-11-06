@@ -2,15 +2,15 @@
 
 <html lang="es">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 
-&lt;!-- Font Awesome --&gt;
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="styles.css" />
 
 <head>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />  -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+
   <title> Recordatorio HTML </title>
   <meta charset="utf-8" />
 </head>
@@ -32,23 +32,25 @@
                 <span class="striking-text text-bold">container-fluid.</span>
               </p>
             </li>
-            <li>Para agregar "icono manita arriba <i class="fa fa-thumbs-up"> </i >" ejemplo: <br> &lt;button class="btn btn-block btn-primary"&gt;Like &lt;i class="fa fa-thumbs-up"&gt; &lt;/i &gt; &lt;/button&gt; </br></li>
+            <li>Para agregar "icono manita arriba <i class="fa fa-thumbs-up"> </i > ejemplo: <br> &lt;button class="btn btn-block btn-primary"&gt;Like &lt;i class="fa fa-thumbs-up"&gt; &lt;/i &gt; &lt;/button&gt; </br></li>
               <li>3</li>
               <li>4</li>
               <li>5</li>
               <li>6</li>
 
             </ul>
+
           </div>
           </div
 
+
           ----------------------------------------------------
+          <!--
           ALGUNAS CLASES DE BOOTSTRAP
           PARA INSERTAR BOOTSTRAP EN NUESTRO HTML
-          <code>
-            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
-          </code>
-          &lt;
+
+          &lt;link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/&gt;
+
 
           container-fluid
           Bootstrap descubrirá qué tan ancha es su pantalla y responderá cambiando el tamaño de sus elementos HTML
@@ -69,141 +71,143 @@
           <button class="btn btn-block">Submit</button>
           este tipo de boton aun nesecita la clase btn
           ----------------------------------------------------
-
-
-          ----------------------------------------------------
-          Botones
-
-          Crea diferentes tipos de botones con ayuda de cualquiera de las clases CSS definidas por Bootstrap 3. Ejemplo:
-
-          <!-- Botón normal -->
-          <button type="button" class="btn btn-default">Normal</button>
-
-          <!-- Muestra el botón de forma destacada para descubrir fácilmente
-          el botón principal dentro de un grupo de botones -->
-          <button type="button" class="btn btn-primary">Destacado</button>
-
-          <!-- Indica una acción exitosa o positiva -->
-          <button type="button" class="btn btn-success">Éxito</button>
-
-          <!-- Botón pensado para los mensajes con alertas informativas -->
-          <button type="button" class="btn btn-info">Información</button>
-
-          <!-- Indica que hay que tener cuidado con la acción asociada al botón -->
-          <button type="button" class="btn btn-warning">Advertencia</button>
-
-          <!-- Indica una acción negativa o potencialmente peligrosa -->
-          <button type="button" class="btn btn-danger">Peligro</button>
-
-          <!-- Resta importancia al botón haciéndolo parecer un simple enlace,
-          aunque conserva tu comportamiento original de botón -->
-          <button type="button" class="btn btn-link">Enlace</button>
-          ----------------------------------------------------
-
+-->
 
           ----------------------------------------------------
-          https://www.w3schools.com/bootstrap/bootstrap_ref_css_buttons.asp
-          Ejemplo de descripción de clase
-          .btn
-          Agrega estilo básico a cualquier botón
 
-          .btn-default
-          Indica un botón predeterminado / estándar
+          <div class="center-block">
+            <p class="">Botones</p>
 
-          .btn-primary
-          Proporciona un peso visual adicional e identifica la acción principal en un conjunto de botones
+            <p class="">Crea diferentes tipos de botones con ayuda de cualquiera de las clases CSS definidas por Bootstrap 3. Ejemplo:</p>
+              <p>Botón normal </p>
+              <button type="button" class="btn btn-default">Normal</button>
 
-          .btn-success
-          Indica una acción exitosa o positiva
+              <P>Muestra el botón de forma destacada para descubrir fácilmente
+              el botón principal dentro de un grupo de botones </p>
+              <button type="button" class="btn btn-primary">Destacado</button>
 
-          .btn-info
-          Botón contextual para mensajes de alerta informativa
+              <p> Indica una acción exitosa o positiva </p>
+              <button type="button" class="btn btn-success">Éxito</button>
 
-          .btn-warning
-          Indica que se debe tener precaución con esta acción
+              <p> Botón pensado para los mensajes con alertas informativas </p>
+              <button type="button" class="btn btn-info">Información</button>
 
-          .btn-danger
-          Indica una acción peligrosa o potencialmente negativa
+              <p> Indica que hay que tener cuidado con la acción asociada al botón </p>
+              <button type="button" class="btn btn-warning">Advertencia</button>
 
-          .btn-link
-          Hace que un botón se vea como un enlace (aún tendrá un comportamiento de botón)
+              <p> Indica una acción negativa o potencialmente peligrosa </p>
+              <button type="button" class="btn btn-danger">Peligro</button>
 
-          .btn-lg
-          Hace un botón grande
-
-          .btn-sm
-          Hace un pequeño botón
-
-          .btn-xs
-          Hace un botón pequeño adicional
-
-          .btn-block
-          Hace un botón de nivel de bloque (abarca todo el ancho del elemento principal)
-
-          .active
-          Hace que el botón aparezca presionado
-
-          .disabled
-          Desactiva el botón
-
-          .navbar-btn
-          Alinea verticalmente un botón dentro de una barra de navegación
-          ----------------------------------------------------
+              <p> Resta importancia al botón haciéndolo parecer un simple enlace,
+              aunque conserva tu comportamiento original de botón </p>
+              <button type="button" class="btn btn-link">Enlace</button>
+</div>
+            ----------------------------------------------------
 
 
-          ----------------------------------------------------
-          https://www.w3schools.com/bootstrap/bootstrap_ref_css_buttons.asp
-          Clases grupales de botones
-          Las siguientes clases se pueden usar para dar estilo a cualquier <a>, <button>, o <input> elemento:
-
+            ----------------------------------------------------
+            https://www.w3schools.com/bootstrap/bootstrap_ref_css_buttons.asp
             Ejemplo de descripción de clase
+            .btn
+            Agrega estilo básico a cualquier botón
 
-            .btn-group
-            Agrupa los botones juntos en una sola línea
+            .btn-default
+            Indica un botón predeterminado / estándar
 
-            .btn-group-justified
-            Hace que un grupo de botones abarque todo el ancho de la pantalla
+            .btn-primary
+            Proporciona un peso visual adicional e identifica la acción principal en un conjunto de botones
 
-            .btn-group-lg
-            Grupo de botones grande (hace que todos los botones de un grupo de botones sean más grandes, aumenta el tamaño de la fuente y el relleno)
+            .btn-success
+            Indica una acción exitosa o positiva
 
-            .btn-group-sm
-            Grupo de botones pequeños (hace que todos los botones de un grupo de botones sean más pequeños)
+            .btn-info
+            Botón contextual para mensajes de alerta informativa
 
-            .btn-group-xs
-            Grupo de botones extra pequeño (hace que todos los botones de un grupo de botones sean muy pequeños)
+            .btn-warning
+            Indica que se debe tener precaución con esta acción
 
-            .btn-group-vertical
-            Hace que un grupo de botones aparezca apilado verticalmente
+            .btn-danger
+            Indica una acción peligrosa o potencialmente negativa
+
+            .btn-link
+            Hace que un botón se vea como un enlace (aún tendrá un comportamiento de botón)
+
+            .btn-lg
+            Hace un botón grande
+
+            .btn-sm
+            Hace un pequeño botón
+
+            .btn-xs
+            Hace un botón pequeño adicional
+
+            .btn-block
+            Hace un botón de nivel de bloque (abarca todo el ancho del elemento principal)
+
+            .active
+            Hace que el botón aparezca presionado
+
+            .disabled
+            Desactiva el botón
+
+            .navbar-btn
+            Alinea verticalmente un botón dentro de una barra de navegación
             ----------------------------------------------------
 
 
             ----------------------------------------------------
-            span - abarcar. Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.
+            https://www.w3schools.com/bootstrap/bootstrap_ref_css_buttons.asp
+            Clases grupales de botones
+            Las siguientes clases se pueden usar para dar estilo a cualquier <a>, <button>, o <input> elemento:
 
-            Sus etiquetas son: <span> y </span> (ambas obligatorias).
-            Está definido como: Elemento especial, y por lo tanto en línea.
-            Crea una caja: En línea.
-            Puede contener: Texto, y/o Elementos en línea.
+              Ejemplo de descripción de clase
 
-            ----------------------------------------------------
+              .btn-group
+              Agrupa los botones juntos en una sola línea
 
+              .btn-group-justified
+              Hace que un grupo de botones abarque todo el ancho de la pantalla
 
+              .btn-group-lg
+              Grupo de botones grande (hace que todos los botones de un grupo de botones sean más grandes, aumenta el tamaño de la fuente y el relleno)
 
+              .btn-group-sm
+              Grupo de botones pequeños (hace que todos los botones de un grupo de botones sean más pequeños)
 
+              .btn-group-xs
+              Grupo de botones extra pequeño (hace que todos los botones de un grupo de botones sean muy pequeños)
 
-
-
-
-
-
-
-
-
-
-
-
+              .btn-group-vertical
+              Hace que un grupo de botones aparezca apilado verticalmente
+              ----------------------------------------------------
 
 
-          </div>
-        </body>
+              ----------------------------------------------------
+              span - abarcar. Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.
+
+              Sus etiquetas son: <span> y </span> (ambas obligatorias).
+              Está definido como: Elemento especial, y por lo tanto en línea.
+              Crea una caja: En línea.
+              Puede contener: Texto, y/o Elementos en línea.
+
+              ----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+          </body>
